@@ -9,6 +9,7 @@ def enigma(message, key):
     if not isinstance(message, str) or not isinstance(key, str):
         raise ValueError("Message or key must be a string")
     
+    message = message.replace(" ", "")
     key = key.lower()
     key_index = 0
     
