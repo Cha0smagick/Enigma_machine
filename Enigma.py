@@ -1,3 +1,5 @@
+import time
+
 def enigma(message, key):
     alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789'
     encrypted = ''
@@ -11,7 +13,7 @@ def enigma(message, key):
     
     message = message.replace(" ", "")
     key = key.lower()
-    key_index = 0
+    key_index = int(time.time() * 1000) % len(key)
     
     for char in message:
         encrypted += alphabet[(alphabet.index(char) + alphabet.index(key[key_index])) % len(alphabet)]
@@ -31,7 +33,7 @@ def decripta(message, key):
         raise ValueError("Message or key must be a string")
     
     key = key.lower()
-    key_index = 0
+    key_index = int(time.time() * 1000) % len(key)
     
     for char in message:
         decrypted += alphabet[(alphabet.index(char) - alphabet.index(key[key_index])) % len(alphabet)]
