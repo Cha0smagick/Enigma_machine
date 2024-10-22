@@ -1,6 +1,6 @@
-# Enigma: Sistema de Cifrado y Descifrado
+# El Codigo Enigma: Sistema de Cifrado y Descifrado
 
-Este proyecto implementa un sistema de cifrado y descifrado utilizando el método de Vigenère. Permite a los usuarios cifrar y descifrar mensajes de texto usando una clave específica. Es solo un pequeño homenaje a Alan Turing. me sorprende que en una hora puedo hacer lo que les tomo meses a los analistas en la II guerra mundial.
+Este proyecto implementa un sistema de cifrado y descifrado utilizando el método de Vigenère. Permite a los usuarios cifrar y descifrar mensajes de texto usando una clave específica. Es solo un pequeño homenaje a Alan Turing. me sorprende que en una hora puedo hacer lo que les tomo meses a los analistas en la II guerra mundial. Estaba viendo la pelicula de el codigo enigma y me pregunte si yo hubiese podido hacer algo asi. Este es el resultado.
 
 ## Funciones
 
